@@ -149,23 +149,21 @@ header#top {
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .header-photo {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
+  width: 180px;
+  height: 220px;
+  border-radius: 4px;
   object-fit: cover;
   object-position: center top;
   flex-shrink: 0;
-  align-self: flex-end;
+  filter: grayscale(20%);
   border: 1px solid var(--rule);
-  opacity: 0.88;
-  filter: grayscale(15%);
-  overflow: hidden;
+  opacity: 0.92;
 }
 
 header h1 {
@@ -648,5 +646,14 @@ footer span {
 
   header#top { padding: 7rem 0 3.5rem; }
 
-  .header-photo { display: none; }
+  .header-inner {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+
+  .header-photo {
+    width: 120px;
+    height: 148px;
+  }
 }
