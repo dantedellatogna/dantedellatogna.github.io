@@ -195,6 +195,13 @@ header h1 {
 }
 
 
+.header-nationality img.emoji {
+  width: 20px !important;
+  height: 20px !important;
+  vertical-align: middle;
+  display: inline;
+}
+
 .nat-sep { color: var(--rule); }
 
 .header-statement {
