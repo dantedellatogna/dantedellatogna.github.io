@@ -158,14 +158,14 @@ header#top {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-image: url('photo.png');
-  background-size: cover;
-  background-position: center top;
+  object-fit: cover;
+  object-position: center top;
   flex-shrink: 0;
   align-self: flex-end;
   border: 1px solid var(--rule);
   opacity: 0.88;
   filter: grayscale(15%);
+  overflow: hidden;
 }
 
 header h1 {
