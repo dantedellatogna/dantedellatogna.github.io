@@ -185,11 +185,28 @@ header h1 {
 }
 
 .header-nationality {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 0.8rem;
   color: var(--ink-light);
   letter-spacing: 0.04em;
   margin-bottom: 1.5rem;
 }
+
+.flag {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.flag svg {
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(128,128,128,0.2);
+  display: block;
+}
+
+.nat-sep { color: var(--rule); }
 
 .header-statement {
   font-family: var(--serif);
