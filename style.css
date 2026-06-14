@@ -194,16 +194,10 @@ header h1 {
   margin-bottom: 1.5rem;
 }
 
-.flag {
-  display: inline-flex;
-  align-items: center;
+img.flag {
   vertical-align: middle;
-}
-
-.flag svg {
   border-radius: 2px;
-  box-shadow: 0 0 0 1px rgba(128,128,128,0.2);
-  display: block;
+  box-shadow: 0 0 0 1px rgba(128,128,128,0.15);
 }
 
 .nat-sep { color: var(--rule); }
