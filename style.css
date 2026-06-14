@@ -155,8 +155,8 @@ header#top {
 }
 
 .header-photo {
-  width: 160px;
-  height: 160px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
