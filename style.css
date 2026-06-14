@@ -155,8 +155,11 @@ header#top {
 }
 
 .header-photo {
+  display: block;
   width: 80px;
   height: 80px;
+  min-width: 80px;
+  max-width: 80px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
@@ -164,6 +167,7 @@ header#top {
   filter: grayscale(15%);
   border: 1px solid var(--rule);
   opacity: 0.9;
+  align-self: flex-end;
 }
 
 header h1 {
