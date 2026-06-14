@@ -184,6 +184,13 @@ header h1 {
   margin-bottom: 1.75rem;
 }
 
+.header-nationality {
+  font-size: 0.8rem;
+  color: var(--ink-light);
+  letter-spacing: 0.04em;
+  margin-bottom: 1.5rem;
+}
+
 .header-statement {
   font-family: var(--serif);
   font-size: 1.2rem;
