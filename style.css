@@ -194,11 +194,6 @@ header h1 {
   margin-bottom: 1.5rem;
 }
 
-img.flag {
-  vertical-align: middle;
-  border-radius: 2px;
-  box-shadow: 0 0 0 1px rgba(128,128,128,0.15);
-}
 
 .nat-sep { color: var(--rule); }
 
